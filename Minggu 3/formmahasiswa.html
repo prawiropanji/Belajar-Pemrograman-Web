@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendataan Mahasiswa</title>
+    <link rel="stylesheet" href="formmahasiswa.css">
+</head>
+
+<body>
+
+    <h1> FORM PENDATAAN MAHASISWA</h1>
+
+
+
+    <div class="container">
+
+        <div class="konten">
+
+            <div class="kiri">
+                <div class="kontenkiri">
+                    fakultas <br>
+                    Ilmu Komputer
+
+                    <form action="">
+                        <label for="jurusan">Jurusan</label><br>
+                        <input type="text" name="label;"><br>
+                        <label for="prodi">Program Studi</label><br>
+                        <input type="text" name="prodi"><br>
+                        <label for="komhs">Kode Mahasiswa*</label><br>
+                        <input type="text" name="komhs"><br>
+                        <label for="namhs">Nama Mahasiswa*</label><br>
+                        <input type="text" name="namhs"><br>
+                        <label for="NIK">NIK Mahasiswa</label><br>
+                        <input type="text" name="NIK"><br>
+                        <label for="bpjs">No BPJS</label><br>
+                        <input type="text" name="bpjs"><br>
+                        <label for="pwd">Password</label><br>
+                        <input type="password" name="pwd"><br>
+                        <label for="thn_angkatan">Tahun Angkatan*</label><br>
+                        <input type="text" name="thn_angkatan"><br>
+                        <label for="smstr_msk">Semester Masuk*</label><br>
+                        <select name="smstr_msk">
+                            <option value="none"></option>
+                            <option value="smstr1">Semester 1</option>
+                            <option value="smstr2">Semester 2</option>
+                            <option value="smstr3">Semester 3</option>
+                            <option value="smstr4">Semester 4</option>
+                            <option value="smstr5">Semester 5</option>
+                            <option value="smstr6">Semester 6</option>
+                            <option value="smstr7">Semester 7</option>
+                            <option value="smstr8">Semester 8</option>
+                        </select><br>
+                        <label for="dos_pmbng">Dosen Pembimbing Akademik</label><br>
+                        <input type="text" name="dos_pmbng"><br>
+                        <label for="no_telp_ortu">No Telp Orangtua/wali</label><br>
+                        <input type="text" name="no_telp_ortu"><br>
+                        <label for="no_telp_mhs">No HP Mahasiswa</label><br>
+                        <input type="text" name="no_telp_mhs"><br>
+                        <label for="email">Email Aktif Mahasiswa</label><br>
+                        <input type="email" name="email"><br>
+                        <label for="tinggal">Tempat tinggal Saat Kuliah</label> <br>
+                        <select name="tinggal" required>
+                            <option value="" disabled selected hidden>--Pilih Jenis Tinggal --</option>
+                            <option value="jakarta">Jakarta</option>
+                        </select><br>
+                        <label for="jns_kelamin">Jenis Kelamin</label><br>
+                        <select name="jns_kelamin" id="jns_kelamin">
+                            <option value=""></option>
+                        </select><br>
+
+
+                </div>
+            </div>
+
+            <div class="tengah">
+                <div class="kontentengah">
+                    <label for="agama">Agama</label><br>
+                    <select name="agama" id="agama">
+                        <option value="none"> </option>
+                    </select><br>
+                    <label for="status">Status Marital</label><br>
+                    <select name="status" id="status">
+                        <option value="none"></option>
+                    </select><br>
+                    <label for="nama_ibu">Nama Gadis Ibu Kandung</label><br>
+                    <input type="text" name="nama_ibu"><br>
+                    <label for="nama_ayah">Nama Ayah Kandung </label><br>
+                    <input type="text" name=""><br>
+                    <label for="tmpt_lahir">Tempat Lahir</label><br>
+                    <input type="text" name="tmpt_lahir"><br>
+                    <label for="tggl_lahir">Tanggal Lahir</label><br>
+                    <input type="text" name="tggl_lahir"><br>
+                    <label for="kewarganegaraan">Kewarganegaraan</label><br>
+                    <select name="kewarganegaraan" id="kewarganegaraan">
+                        <option value="none"></option>
+                    </select><br>
+                    <label for="almt_asal">Alamat Asal</label><br>
+                    <input type="text" name="almt_asal"><br>
+                    <label for="rt/rw">RT/RW Asal</label><br>
+                    <input type="text" name="rt" id="rtrw">/
+                    <input type="text" name="rw" id="rtrw"><br>
+                    <label for="kelurahan">Desa/Kelurahan Asal</label><br>
+                    <input type="text" name="kelurahan"><br>
+                    <label for="kecamatan">Kecamatan Asal</label><br>
+                    <input type="text" name="kecamatan"><br>
+                    <label for="kota">Kota Asal</label><br>
+                    <input type="text" name="kota"><br>
+                    <label for="kodepos">Kode Pos Asal</label><br>
+                    <input type="text" name="kodepos"><br>
+                    <label for="provinsi">Provinsi Asal</label><br>
+                    <input type="text" name="provinsi"><br>
+                    <label for="negara">Negara Asal</label><br>
+                    <input type="text" name="negara"><br>
+                </div>
+            </div>
+            <div class="kanan">
+                <div class="kontenkanan">
+                    <label for="alamat">Alamat Asal</label><br>
+                    <input type="text" name="alamat"><br>
+                    <label for="rts/rws">RT/RW Sekarang</label><br>
+                    <input type="text" name="rts" id="rtrw">/
+                    <input type="text" name="rws" id="rtrw"><br>
+                    <label for="kecamatans">Kecamatan Sekarang</label><br>
+                    <input type="text" name="kecamatans"><br>
+                    <label for="kodeposs">Kode Pos Sekarang</label><br>
+                    <input type="text" name="kodeposs"> <br>
+                    <label for="transfer">Transfer</label><br>
+                    <select name="transfer">
+                        <option value="" disabled selected hidden>Tidak</option>
+                    </select><br>
+                    <label for="jns_pendaftaran">Jenis Pendaftaran</label><br>
+                    <select name="jns_pendaftaran">
+                        <option value="" disabled selected hidden>-</option>
+                    </select><br>
+                    <label for="stts">Status</label><br>
+                    <select name="stts">
+                        <option value="" disabled selected hidden>Pilih</option>
+                    </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <button id="tombol" name="simpan">Simpan</button>
+        <button name="batal">Batal</button>
+    </div>
+
+
+
+</body>
+
+</html>

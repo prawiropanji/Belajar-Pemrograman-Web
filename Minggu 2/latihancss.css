@@ -1,0 +1,46 @@
+body {
+    background-color: wheat;
+}
+
+.container {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+
+    float: left;
+    width: 250px;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+nav ul {
+    padding-inline-start: 10px;
+    list-style: none;
+}
+
+article {
+    padding: 10px;
+    float: right;
+    width: 500px;
+}
+
+footer {
+    clear: both;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
