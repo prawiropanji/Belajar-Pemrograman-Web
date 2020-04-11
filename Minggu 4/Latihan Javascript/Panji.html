@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Panji.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="containerinput">
+            <form action="" method="POST">
+
+
+                NIM : <br>
+                <select name="" id="pilih" onchange="funcNama(event)" required>
+                    <option value="" selected disabled>--Pilih--NIM</option>
+                    <option value="Muh.Amin">A12.2015.12345</option>
+                    <option value="Santoso">A12.2015.12346</option>
+                    <option value="Sutrisno">A12.2015.12347</option>
+                </select> <br>
+
+                Nama : <br>
+                <input type="text" id="show" placeholder="Nama"><br>
+
+                Nilai Tugas : <br>
+                <input type="number" id="tgs" min='1' max='100' placeholder="1-100"><br>
+                Nilai UTS: <br>
+                <input type="number" id="uts" min='1' max='100' placeholder="1-100"><br>
+                Nilai UAS: <br>
+                <input type="number" id="uas" min='1' max='100' placeholder="1-100"><br>
+                Nilai Akhir: <br>
+                <input type="number" id="akhir">
+            </form>
+        </div>
+        <button id="button" onclick="myBtn()">Save</button>
+        <br>
+        <br>
+        <div id="output"></div>
+
+
+    </div>
+
+    <script src="Panji.js"></script>
+</body>
+
+</html>
