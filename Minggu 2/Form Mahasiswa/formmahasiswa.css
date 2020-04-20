@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    border: 10px solid #dddddd;
+
+}
+
+.kiri,
+.kanan,
+.tengah {
+
+    margin: 45px;
+    width: 300px;
+    background-color: #dddddd;
+    float: left;
+
+}
+
+.kiri {}
+
+.kontenkiri,
+.kontentengah,
+.kontenkanan {
+    padding: 10px;
+}
+
+.konten {
+    height: 745px;
+}
+
+#tombol {
+    margin-left: 49px;
+}
+
+#jns_kelamin,
+#agama,
+#status,
+#kewarganegaraan {
+    width: 60%;
+}
+
+.tengah {}
+
+
+
+
+#rtrw {
+    width: 50px;
+}
+
+.kanan {}
